@@ -1,14 +1,15 @@
 .principal{
-    background-color: blue;
+    background-color: bisque;
     margin-left: 50%;
     width: 40%;
     position: fixed;
     height: 100%;
+    line-height: 70px;
 }
 
 .principal p{
     font-family: 'Poppins', sans-serif;
-    margin-top: 200px;
+    margin-top: 165px;
     font-size: 37px;
     text-transform: uppercase;
     text-align: center;
@@ -33,5 +34,45 @@
     font-size: 100px;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 10px;
+}
+
+#sub{
+    text-align: center;
+    font-size:18px;
+    text-transform: none;
+    width:57%;
+    margin-left: 21.5%;
+    margin-top:2%;
+    line-height:25px;
+    
+}
+
+form{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+fieldset{
+    background-color: rgba(210, 180, 140, 0.438);
+    border:none;
+    border-radius: 5px;
+    padding: 0 0 0 5px;
+}
+
+input{
+    border:none;
+    height: 30px;
+    width: 250px;
+    background-color: bisque;
+}
+
+button{
+    width:60px;
+    height:30px;
+    background-color: rgba(241, 189, 226, 0.815);
+    border:none;
+    border-radius: 5px;
+    color:white;
+    font-size:18px;
 }
